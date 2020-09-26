@@ -5,7 +5,7 @@ And also handle the task functionality like fetching all task from api then add 
 I also made a dropdown. The content in below dropdown is show as per value selected from dropdown.
 
 ### Demo
-Video url:
+Video url: https://drive.google.com/file/d/1_S9suBKvhtBn5OlTIjmybcANJiwVzoUC/view?usp=sharing
 
 ## Getting Started
 # Getting Started
@@ -14,7 +14,7 @@ Video url:
 3. Open VS Code editor.
 4. Open Project folder in VS Code.
 5. Open Command line in Vs code.
-6. Typt `` cd public ``
+6. Type `` cd public ``
 6. Run following command.
     ``` 
     npm install

@@ -1,0 +1,201 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* my css */
+
+.tool-top {
+  position: absolute;
+}
+.tool-tip-bottom,
+.tool-tip-top,
+.tool-tip-left,
+.tool-tip-right {
+  color: white;
+  padding: 20px;
+  font-weight: 900;
+  background-color: orangered;
+}
+
+.tool-tip-left{
+  transform: translate(470px, 90px) !important;
+}
+
+.tool-tip-right{
+  transform: translate(810px, 90px) !important;
+}
+
+.tool-tip-bottom{
+  transform: translate(650px, 190px) !important;
+}
+
+.main {
+  padding: 10px 20px;
+  background-color: blue;
+  border: 0px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 800;
+}
+
+.selected-state {
+  text-transform: capitalize;
+}
+
+#dropdown {
+  padding: 2px 4px;
+}
+
+
+.nav{
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  
+  align-items: center;
+}
+
+.navbtn{
+  text-decoration: none;
+  color: lightgray;
+  padding: 10px 20px;
+  margin: 0 40px;
+
+}
+
+.navbtn1{
+  text-decoration: none;
+  color: rgb(223, 93, 93);
+  padding: 10px 20px;
+  margin: 0 40px;
+  background-color: lightcyan;
+}
+
+.navbtn1:hover{
+  background-color: black;
+}
+
+.navbtn:hover{
+  background-color: black;
+}
+
+.logo{
+  color: lightgray;
+  margin-left: 10px;
+}
+
+#dropdown{
+  margin: 20px 0px 10px 20px;
+  padding: 5px 40px 5px 0px;
+}
+
+.info{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.tasklist{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#task1{
+  border-top: 2px solid lightgray;
+}
+
+.task{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+}
+#taskname{
+  width: 20%;
+  margin-left: 100px;
+}
+#dlbtn{
+    padding: 0px 20px;
+    background-color: red;
+    color: white;
+}
+.addbtn{
+  margin-bottom: 20px;
+}
+
+#addbtn1{
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+
+#addform{
+  max-width:40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#inputtask{
+  padding: 10px;
+  margin: 15px 0px;
+}
+
+#completed{
+  padding: 10px;
+  margin: 15px 0px;
+}
+
+#subbtn{
+  width:20%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  background-color: blue;
+  color: white;
+}
+
+.userdetail{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 300px;
+}
+
+#changepass{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
